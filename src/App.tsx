@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router';
 import { Home } from './pages/Home';
 import { Profile } from './pages/Profile';
 import { BrowserRouter } from 'react-router-dom';
+import { Flowers } from './pages/Flowers';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/flowers" element={<Flowers />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

@@ -5,6 +5,7 @@ export const InputContainer = styled.input`
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
   border-radius: 3px;
 
+  border: none;
   outline: none;
   padding: 26px 19px;
   text-align: left;

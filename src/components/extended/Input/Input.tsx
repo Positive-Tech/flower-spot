@@ -3,7 +3,7 @@ import { IconWrapper } from './components/IconWrapper';
 import { InputContainer } from './components/InputContainer';
 import { InputWrapper } from './components/InputWrapper';
 
-type InputProps = {
+export type InputProps = {
   placeholder?: string;
   withIcon?: boolean;
 } & ComponentPropsWithoutRef<'input'>;
