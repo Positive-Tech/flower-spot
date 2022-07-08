@@ -1,0 +1,1 @@
+export { InputWitLabel } from './InputWitLabel';
